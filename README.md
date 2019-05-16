@@ -12,7 +12,9 @@ O programa deve rodar em uma aplicação web e os comandos serão recebidos por 
 
 
 A API REST deve aceitar o input dos comandos em dois formatos:
+
 **1 -** enviando os comandos diretamente na requisição, como plain text, retornando a saída também como plain text; 
+
 **2 -** enviando os comandos como um objeto JSON, retornando a saída também como um objeto JSON.
 
 Os dois casos devem ser implementados e servidos por meio de endpoints diferentes, sendo que o segundo endpoint deve ser terminado em ".json".
